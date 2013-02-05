@@ -4,7 +4,7 @@
 		<img class="news-pics" src="img/little_pic1.jpg" alt="">
 			<div class="caption">
 				<h4>20/09/2012</h4>
-				<p>No longer need the driver to enter the weather conditions. This is now happens automatically when an accident is logged.</p>
+				<p>No longer need the driver to enter the weather conditions. This now happens automatically when an accident is logged.</p>
 			</div>
 	</div>
 	<div class="news-item">
@@ -18,7 +18,7 @@
 		<img class="news-pics" src="img/little_pic1.jpg" alt="">
 			<div class="caption">
 				<h4>10/09/2012</h4>
-				<p>Multiple images can now be upload when logging an accident.</p>
+				<p>Multiple images can now be uploaded when logging an accident.</p>
 			</div>
 	</div>			
 </article>

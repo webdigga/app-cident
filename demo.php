@@ -18,7 +18,7 @@
 					<source type="video/mp4" src="/videos/app-demo.mp4">	
 				</video>				
 				<h5>Console</h5>
-				<video id="my_video_1" class="video-js vjs-default-skin" controls
+				<video id="my_video_2" class="video-js vjs-default-skin" controls
 					preload="auto" width="600" height="338"	data-setup="{}">
 					<source type="video/mp4" src="/videos/console-demo.mp4">
 				</video>
