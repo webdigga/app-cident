@@ -1,0 +1,355 @@
+/** html5 **/
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+html {width:100%; height:100%;}
+
+body { 	 
+ font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+ font-size:100%; 
+ color:#58595B;
+ min-width:940px;
+ font-size:14px;
+ line-height:21px;
+ background: url("../img/backgroundGradient.jpg") repeat-x scroll 0 0 transparent;
+}
+
+/** layouts & alignment **/
+
+.wrapper {
+ width:100%;
+ overflow:hidden;
+}
+
+.clear { 
+ clear: both;
+ display: block;
+ overflow: hidden;
+ visibility: hidden;
+ width: 0;
+ height: 0;
+}
+
+.main {
+ width: 960px; 	
+ padding:0;
+ margin: 0 auto;
+ position:relative;
+}
+
+.main article {
+ float: left;
+}
+
+article.column1 {
+ width: 600px;
+}
+
+.column1 ul {
+ list-style: square inside none;
+ margin-bottom: 15px;
+}
+
+.column1 li {
+ margin-bottom: 5px;
+}
+
+article.column2 {
+ width: 340px;
+ margin-left: 20px;
+}
+
+section.steps  {
+ font-size: 18px;
+ font-weight: bold;	
+ color: #3D3C3B;
+}
+
+section.steps ul {
+ margin-bottom: 10px;
+}
+
+section.steps ul li {
+ float: left;
+ display: block;
+ width: 215px;
+ padding: 0 0 0 25px;
+ height: 30px;
+}
+
+section.steps ul.mobiles li {
+ background: url('../img/mobile.png') no-repeat 10px 0;
+ display: block;
+ height: 400px;
+ width: 240px;
+ padding: 0;
+ margin-bottom: 20px;
+}
+
+section.steps ul.mobiles img{
+ height: 264px;
+ margin: 60px 40px;
+ width: 158px;
+}
+	
+/** fonts **/
+
+p {
+ margin:0px 0px 0px 0px;
+}
+
+.about p {
+ font-size: 14px;
+ margin: 7px 0;	
+}
+
+footer p {
+ font-weight: bold;
+}
+
+
+
+/** links **/
+
+a {
+ color: #000;
+ text-decoration:underline;
+}
+
+/** header **/
+
+header {
+ width:100%;
+ position:relative; 
+ z-index:9999;
+ height: 175px;
+}
+
+h1 { 
+ float: left;
+ margin: 12px 0 10px;
+}
+
+title {
+    float: left;
+    font-size: 32px;
+    letter-spacing: -0.03em;
+    margin: 0 0 1.2em;
+}
+
+h1 a { 
+ display:block; 	
+ width: 218px; 	
+ text-indent:-5000px;
+ background:url(../img/logo.png) 0 0 no-repeat;	
+ margin: 0 0 5px;
+ min-height: 95px;
+}
+
+.slogan {
+ position: relative;
+ float:right;
+ color: #000;
+ font: 18px Arial; 
+ font-style: italic;
+ font-weight: 500;
+ top: 42px;
+}
+
+/*** MENU ***/
+
+nav {
+ height: 47px;
+ display:block;
+ z-index: 5;
+ background: #000; 
+ clear: both;
+ margin-bottom: 30px;
+ background-color: #333333;
+ border-bottom: 2px solid black;
+}
+
+#nav li {
+ display:inline;
+}
+
+#nav li a {  
+ font-size:18px;
+ text-decoration: none;
+ float:left;
+ height: 22px;
+ padding: 15px 46px 0;
+ color:#ffffff;
+}
+
+#nav li a:hover, #nav li.active a {
+ background-color:#889AAD;
+ padding-bottom:12px;
+}
+
+
+/** content **/
+
+h2, h3, h4 {
+ width: 600px;
+}
+
+.column2 h2, .column2 h3, .column2 h4 {
+ width: 340px;
+}
+
+.column2 h4 {
+ margin: 0;
+}
+
+h2 {
+ float: left;
+ font-size: 32px;
+ letter-spacing: -0.03em;
+ margin: 0 0 1.2em;
+ font-weight: normal;
+ border-bottom: 1px solid #D2D2D2;
+ letter-spacing: -1px;
+ margin: 20px 0;
+ padding-top: 18px;
+ min-height: 40px;
+}
+
+h3 {
+ float: left;
+ color: #58595B;
+ font-size: 22px;
+ font-weight: normal;
+ min-height: 24px;
+ margin-bottom: 20px;
+ text-decoration: none;
+}
+
+h4 {
+ color: #000000;
+ float: left;
+ font-size: 17px;
+ margin: 15px 0 5px;
+}
+
+h5 {
+ font-size: 1.5em;
+ margin: 20px 0;
+}
+
+.steps h4 {
+ margin: 10px 25px 20px;
+ color: #889AAD;
+ width: 910px;
+}
+
+.div.{
+ float: left;
+ margin: 34px 0px -15px;
+}
+
+.news-item {
+ float: left;
+ margin: 0 0 20px;
+}
+
+.news-pics {
+ float:left;
+ margin-right: 6px;
+ margin-top: 0px;
+}
+
+.caption{
+ overflow:hidden;
+}
+
+/** button **/
+
+.button {
+-webkit-transition: all 0.5s ease;
+-msie-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+position:relative;
+font: 12px Arimo, sans-serif;
+color: #ebe8e0;
+padding: 8px 15px;
+border-radius: 4px;
+}
+
+.button:hover{
+ -webkit-transition: all 0.5s ease;
+ -msie-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+ position:relative;
+ font: 12px Arimo, sans-serif;
+ color: #fff;
+ padding: 8px 15px;
+ border-radius: 4px;
+}
+
+/** footer **/
+
+footer {
+ width:100%; 
+ padding: 20px 0 90px;
+ position:relative;	
+ bottom: 0px;
+ z-index:99;
+ left:0;
+ clear: both;
+}
+footer a{
+ text-decoration:underline;
+ color: #616060;
+}
+
+footer a:hover{
+text-decoration:none;
+}
+
+.footer_logo{
+ margin-bottom: 24px;
+}
+
+.pic1 {
+ border-bottom: 2px solid gray;
+}
+
+footer .socialMediaIcons {
+ clear: both;
+ margin-bottom: 10px;
+ width: 960px;
+ display: block;
+ height: 32px;
+}
+
+footer .socialMediaIcons li {
+ float: left;
+ margin-right: 10px;
+}
+
+/** form **/
+
+form.contact {
+ font-size: 16px;
+ float: left;
+}
+
+form.contact .row {
+ display: block;
+ height: 40px;
+}
+
+form.contact .textarea {
+ height: 160px;
+}
+
+form.contact label{
+ float: left; 
+ font-weight: bold;
+ display: block;
+ width: 100px;
+}
